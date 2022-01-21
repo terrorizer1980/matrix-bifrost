@@ -599,6 +599,13 @@
   dependencies:
     events "^3.2.0"
 
+"@xmpp/events@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@xmpp/events/-/events-0.13.0.tgz#827b9e9b73705b41a9ddeeccda34cdcbacc02f62"
+  integrity sha512-G+9NczMWWOawn62r1JIv/N413G2biI+hURiN4iH74FGvjagXwassUeJgPnDUEFp2FTKX3dIrJDkXH49ZcFuo/g==
+  dependencies:
+    events "^3.3.0"
+
 "@xmpp/id@^0.12.0":
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/@xmpp/id/-/id-0.12.0.tgz#9765de4a6820778edd483af9f42c000652d6e251"
@@ -635,6 +642,13 @@
   integrity sha512-cbetX0la/0B2aLQ7jlA1pITj7vKUMSjbKC49orR199qUbrg0WtuRqxhZhZmnXJPicCz3tKFUnb+TVnYU2Ug1Mg==
   dependencies:
     "@xmpp/events" "^0.12.0"
+
+"@xmpp/reconnect@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@xmpp/reconnect/-/reconnect-0.13.0.tgz#2e98370cb3c157e7023928fc3f42418344f91e1f"
+  integrity sha512-I0uxzGb6Mr6QlCPjgIGb8eBbPYJc2FauOfpoZ/O7Km+i41MxLmVyNaKP0aY2JhWIxls727X9VMMtjTlK8vE5RQ==
+  dependencies:
+    "@xmpp/events" "^0.13.0"
 
 "@xmpp/xml@^0.12.0":
   version "0.12.0"
@@ -1761,7 +1775,7 @@ eventemitter3@^4.0.4:
   resolved "https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz"
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
-events@^3.2.0:
+events@^3.2.0, events@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
