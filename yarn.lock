@@ -619,6 +619,11 @@
   resolved "https://registry.yarnpkg.com/@xmpp/jid/-/jid-0.12.0.tgz#af351869861048c29ab38d99a3fc6232f44b3640"
   integrity sha512-Wdtc7Q7pS9EQzXBTBYcT6g9ZYpWXmnFx19/STqnX15nNd7LATR2Q5Dx5H+u0bRyB/IioUY2o3JXwyS98yemNPQ==
 
+"@xmpp/jid@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@xmpp/jid/-/jid-0.13.0.tgz#db035d6b2e671732b473e488370bab9cff0eec87"
+  integrity sha512-R8XkQOLK7V+wDiXozc9VzoACb4+XPR6K8zno1fur9le7AnUrX/vUvb8/ZcvenFNWVYplvZS6h9GkZPPEGvmUyQ==
+
 "@xmpp/middleware@^0.12.0":
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/@xmpp/middleware/-/middleware-0.12.0.tgz#0363adf7e4e0f3e6ce47b2ba2eec1c8d07bc9390"
